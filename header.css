@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.header{
+    height: 117px;
+    
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 204, 204);
+    border-bottom-width: 2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    
+    
+    
+    
+}
+.left-sec{
+    width: 250px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right-sec{
+    width: 340px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.middle-sec{
+    flex: 1;
+    height: 117px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.etsy-logo{
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.menu-icon{
+    margin-right: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    
+
+}
+.categories{
+    margin-left: 5px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+}
+.signin-btn{
+    width: 70px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20px;
+    transition: .5s;
+    background-color: #ffffff;
+    margin-left: 30px;
+
+}
+.signin-btn:hover{
+    cursor: pointer;
+    background-color: rgb(226, 222, 222);
+}
+
+.cart-icon{
+   margin-right: 50px;
+   position: relative;
+   cursor: pointer;
+   
+    
+}
+.search-bar{
+    flex: 1;
+    height: 40px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding-left: 20PX;
+    
+    
+    
+    
+}
+.search-bar::placeholder{
+    font-size: 16px;
+    font-family: Roboto;
+    
+}
+.search-icon{
+    position: absolute;
+    right: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 102, 10);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+    
+}
+.bottom-sec{
+    position: absolute;
+    
+    width: 730px;
+    height: 45px;
+    margin-top: 70px;
+    margin-left: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gifts{
+    display: flex;
+    align-items: center;
+}
+.bottom-sec div{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    transition: 1s;
+    
+}
+.bottom-sec div:hover,
+.menu-icon:hover
+{
+    background-color: rgb(233, 230, 230);
+    transition: 1ss;
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+
+}
+.tooltip{
+    position: absolute;
+    display: flex;
+    left: -35px;
+    margin-top: 15px;
+    background-color: rgb(9, 9, 82);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: small;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+}
+.icon:hover .tooltip,
+.cart-icon:hover .tooltip {
+    opacity: 1;
+    transition: .7s;
+}
+
+
+
+
